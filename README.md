@@ -1,4 +1,18 @@
-# 快捷手册Manual
+
+| 📊 |⚔️ | 🖥 | 🚏 | 🏖  | 🌁| 📮 | 🔍 | 🚀 | 🌈 |💡
+| :--------: | :---------: | :---------: | :---------: | :---------: | :---------:| :---------: | :-------: | :-------:| :------:|:------:|
+| [分布式](#分布式相关) | [集合](#常用集合) | [多线程](#java-多线程)|[JVM](#jvm) |[框架](#常用框架第三方组件)|[架构设计](#架构设计)| [数据库](#db-相关) |[算法](#数据结构与算法)|[Netty](#netty-相关)| [附加技能](#附加技能)|[联系作者](#联系作者) |
+
+### 分布式架构
+- 🔥 [分布式技术思维导图](https://github.com/wx-chevalier/Awesome-MindMaps)  🔥 [深入浅出分布式系统](https://ng-tech.icu/DistributedSystem-Series/#/) 🔥 [分布式架构知识体系](https://www.javazhiyin.com/30345.html)
+- [趋势解读 | 分布式架构是数据中心的未来吗？](https://www.iyiou.com/p/116586.html) | [复杂分布式架构下的计算治理之路：计算中间件 Linkis](https://www.infoq.cn/article/cBacrLrhZ8DZfHZUO0xy)
+- [分布式限流](http://crossoverjie.top/2018/04/28/sbc/sbc7-Distributed-Limit/) | [基于 Redis 的分布式锁](http://crossoverjie.top/2018/03/29/distributed-lock/distributed-lock-redis/) | [分布式缓存设计](https://github.com/crossoverJie/JCSprout/blob/master/MD/Cache-design.md) | [分布式 ID 生成器](https://github.com/crossoverJie/JCSprout/blob/master/MD/ID-generator.md)
+- 🔥 [淘宝案例：服务端高并发分布式架构演进之路](https://segmentfault.com/a/1190000018626163) | [蚂蚁金服案例：金融分布式架构](https://tech.antfin.com/products/SOFA) | [美团案例：即时物流的分布式系统架构设计](https://tech.meituan.com/2018/11/22/instant-logistics-distributed-system-architecture.html)
+-[民生银行分布式架构应用](https://www.sohu.com/a/236748082_672569)
+- [PAXOS:](http://harry.me/blog/2014/12/27/neat-algorithms-paxos/)  🔥 [Raft:寻找一种易于理解的一致性算法（扩展版）](https://github.com/maemual/raft-zh_cn/blob/master/raft-zh_cn.md)
+- [分布式架构基本概念](https://www.cnblogs.com/leesf456/p/5992377.html) | [认识分布式架构](https://juejin.im/post/5a5cc9f5f265da3e58595611)
+- [一文读懂分布式架构知识体系（内含超全核心知识大图）](https://juejin.im/post/5da6b68b51882565f76606fb) | [《商业银行分布式架构实践》笔记](https://thurstonzk2008.com/2020/01/30/%E3%80%8A%E5%95%86%E4%B8%9A%E9%93%B6%E8%A1%8C%E5%88%86%E5%B8%83%E5%BC%8F%E6%9E%B6%E6%9E%84%E5%AE%9E%E8%B7%B5%E3%80%8B%E7%AC%94%E8%AE%B0/)
+
 #### GitHub开源项目
 - 🔥 New：[elasticsearch:Open Source, Distributed, RESTful Search Engine ](https://github.com/elastic/elasticsearch)
 - 🔥 New：[Distributed reliable key-value store for the most critical data of a distributed system](https://github.com/etcd-io/etcd)
@@ -19,36 +33,13 @@
 - 🔥 New：[腾讯高性能分布式图计算框架Plato](https://github.com/Tencent/plato)
 - 🔥 New：[dynamic datasource for springboot 多数据源 动态数据源 主从分离 读写分离 分布式事务](https://github.com/baomidou/dynamic-datasource-spring-boot-starter)
 
-
-| 📊 |⚔️ | 🖥 | 🚏 | 🏖  | 🌁| 📮 | 🔍 | 🚀 | 🌈 |💡
-| :--------: | :---------: | :---------: | :---------: | :---------: | :---------:| :---------: | :-------: | :-------:| :------:|:------:|
-| [分布式](#分布式相关) | [集合](#常用集合) | [多线程](#java-多线程)|[JVM](#jvm) |[框架](#常用框架第三方组件)|[架构设计](#架构设计)| [数据库](#db-相关) |[算法](#数据结构与算法)|[Netty](#netty-相关)| [附加技能](#附加技能)|[联系作者](#联系作者) |
-
-### 分布式相关
-- 🔥 [分布式技术思维导图](https://github.com/wx-chevalier/Awesome-MindMaps) | - 🔥 [深入浅出分布式系统](https://ng-tech.icu/DistributedSystem-Series/#/)
-- 🔥 [分布式架构知识体系](https://www.javazhiyin.com/30345.html)
-- [趋势解读 | 分布式架构是数据中心的未来吗？](https://www.iyiou.com/p/116586.html)
-- [复杂分布式架构下的计算治理之路：计算中间件 Linkis](https://www.infoq.cn/article/cBacrLrhZ8DZfHZUO0xy)
-- [分布式限流](http://crossoverjie.top/2018/04/28/sbc/sbc7-Distributed-Limit/)
-- [基于 Redis 的分布式锁](http://crossoverjie.top/2018/03/29/distributed-lock/distributed-lock-redis/)
-- [分布式缓存设计](https://github.com/crossoverJie/JCSprout/blob/master/MD/Cache-design.md)
-- [分布式 ID 生成器](https://github.com/crossoverJie/JCSprout/blob/master/MD/ID-generator.md)
-- 🔥 [淘宝案例：服务端高并发分布式架构演进之路](https://segmentfault.com/a/1190000018626163)
-- [蚂蚁金服案例：金融分布式架构](https://tech.antfin.com/products/SOFA)
-- [美团案例：即时物流的分布式系统架构设计](https://tech.meituan.com/2018/11/22/instant-logistics-distributed-system-architecture.html)
-
-- [PAXOS:](http://harry.me/blog/2014/12/27/neat-algorithms-paxos/)
-- 🔥 [Raft:寻找一种易于理解的一致性算法（扩展版）](https://github.com/maemual/raft-zh_cn/blob/master/raft-zh_cn.md)
-- [分布式架构基本概念](https://www.cnblogs.com/leesf456/p/5992377.html)
-- [认识分布式架构](https://juejin.im/post/5a5cc9f5f265da3e58595611)
-- [一文读懂分布式架构知识体系（内含超全核心知识大图）](https://juejin.im/post/5da6b68b51882565f76606fb)
+### 微服务
+- [project for spring cloud learning](https://github.com/forezp/SpringCloudLearning)
+- [SpringCloud集成框架](https://github.com/SpringForAll/springcloud-thoth)
+- [Spring Cloud教程](https://github.com/dyc87112/SpringCloud-Learning)
 
 ### 常用集合
-- [ArrayList/Vector](https://github.com/crossoverJie/JCSprout/blob/master/MD/ArrayList.md)
-- [LinkedList](https://github.com/crossoverJie/JCSprout/blob/master/MD/LinkedList.md)
-- [HashMap](https://github.com/crossoverJie/JCSprout/blob/master/MD/HashMap.md)
-- [HashSet](https://github.com/crossoverJie/JCSprout/blob/master/MD/collection/HashSet.md)
-- [LinkedHashMap](https://github.com/crossoverJie/JCSprout/blob/master/MD/collection/LinkedHashMap.md)
+- [ArrayList/Vector](https://github.com/crossoverJie/JCSprout/blob/master/MD/ArrayList.md) | [LinkedList](https://github.com/crossoverJie/JCSprout/blob/master/MD/LinkedList.md) | [HashMap](https://github.com/crossoverJie/JCSprout/blob/master/MD/HashMap.md) | [HashSet](https://github.com/crossoverJie/JCSprout/blob/master/MD/collection/HashSet.md) | [LinkedHashMap](https://github.com/crossoverJie/JCSprout/blob/master/MD/collection/LinkedHashMap.md)
 
 ### Java 多线程
 - [多线程中的常见问题](https://github.com/crossoverJie/JCSprout/blob/master/MD/Thread-common-problem.md)
@@ -125,10 +116,3 @@
 - [一个学渣的阿里之路](https://crossoverjie.top/2018/06/21/personal/Interview-experience/)
 - [如何成为一位「不那么差」的程序员](https://crossoverjie.top/2018/08/12/personal/how-to-be-developer/)
 - [如何高效的使用 Git](https://github.com/crossoverJie/JCSprout/blob/master/MD/additional-skills/how-to-use-git-efficiently.md)
-
-
-- [project for spring cloud learning](https://github.com/forezp/SpringCloudLearning)
-
-- [SpringCloud集成框架](https://github.com/SpringForAll/springcloud-thoth)
-
-- [Spring Cloud教程](https://github.com/dyc87112/SpringCloud-Learning)
