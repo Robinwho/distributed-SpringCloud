@@ -6,7 +6,7 @@
 ### 分布式架构
 - 🔥 [分布式技术思维导图](https://github.com/wx-chevalier/Awesome-MindMaps)  
 - 🔥 [深入浅出分布式系统](https://ng-tech.icu/DistributedSystem-Series/#/) 
-- 🔥 [分布式架构知识体系](https://www.javazhiyin.com/30345.html)
+- 🔥 [一文读懂分布式架构知识体系（内含超全核心知识大图）](https://juejin.im/post/5da6b68b51882565f76606fb)
 - [趋势解读：分布式架构是数据中心的未来吗？](https://www.iyiou.com/p/116586.html) | [复杂分布式架构下的计算治理之路：计算中间件 Linkis](https://www.infoq.cn/article/cBacrLrhZ8DZfHZUO0xy)
 - [分布式限流](http://crossoverjie.top/2018/04/28/sbc/sbc7-Distributed-Limit/) | [基于 Redis 的分布式锁](http://crossoverjie.top/2018/03/29/distributed-lock/distributed-lock-redis/) 
 - [分布式缓存设计](https://github.com/crossoverJie/JCSprout/blob/master/MD/Cache-design.md) | [分布式 ID 生成器](https://github.com/crossoverJie/JCSprout/blob/master/MD/ID-generator.md)
@@ -15,7 +15,7 @@
 - [民生银行分布式架构应用](https://www.sohu.com/a/236748082_672569)
 - 🔥 [PAXOS:](http://harry.me/blog/2014/12/27/neat-algorithms-paxos/)  🔥 [Raft:寻找一种易于理解的一致性算法（扩展版）](https://github.com/maemual/raft-zh_cn/blob/master/raft-zh_cn.md)
 - [分布式架构基本概念](https://www.cnblogs.com/leesf456/p/5992377.html) | [认识分布式架构](https://juejin.im/post/5a5cc9f5f265da3e58595611)
-- [一文读懂分布式架构知识体系（内含超全核心知识大图）](https://juejin.im/post/5da6b68b51882565f76606fb) | [《商业银行分布式架构实践》笔记](https://thurstonzk2008.com/2020/01/30/%E3%80%8A%E5%95%86%E4%B8%9A%E9%93%B6%E8%A1%8C%E5%88%86%E5%B8%83%E5%BC%8F%E6%9E%B6%E6%9E%84%E5%AE%9E%E8%B7%B5%E3%80%8B%E7%AC%94%E8%AE%B0/)
+- [《商业银行分布式架构实践》笔记](https://thurstonzk2008.com/2020/01/30/%E3%80%8A%E5%95%86%E4%B8%9A%E9%93%B6%E8%A1%8C%E5%88%86%E5%B8%83%E5%BC%8F%E6%9E%B6%E6%9E%84%E5%AE%9E%E8%B7%B5%E3%80%8B%E7%AC%94%E8%AE%B0/)
 
 #### GitHub开源项目
 - 🔥 New：[elasticsearch:Open Source, Distributed, RESTful Search Engine ](https://github.com/elastic/elasticsearch)
